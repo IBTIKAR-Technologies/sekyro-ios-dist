@@ -1,10 +1,10 @@
-# SekyroKit for iOS (0.1.0-rc.3)
+# SekyroKit for iOS (0.1.0-rc.4)
 
 Binary distribution of the Sekyro AI identity verification SDK. iOS 15+, Swift 5.9+.
 
 ## Install
-- **Swift Package Manager:** add `https://github.com/IBTIKAR-Technologies/sekyro-ios-dist`, exact version `0.1.0-rc.3`, product `SekyroKit`.
-- **CocoaPods:** `pod 'SekyroKit', :podspec => 'https://raw.githubusercontent.com/IBTIKAR-Technologies/sekyro-ios-dist/0.1.0-rc.3/SekyroKit.podspec'`
+- **Swift Package Manager:** add `https://github.com/IBTIKAR-Technologies/sekyro-ios-dist`, exact version `0.1.0-rc.4`, product `SekyroKit`.
+- **CocoaPods:** `pod 'SekyroKit', :podspec => 'https://raw.githubusercontent.com/IBTIKAR-Technologies/sekyro-ios-dist/0.1.0-rc.4/SekyroKit.podspec'`
 
 ## Required app setup
 - Info.plist: `NSCameraUsageDescription`; for chip reading `NFCReaderUsageDescription` and
