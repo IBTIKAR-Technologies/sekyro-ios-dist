@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'SekyroKit'
-  s.version      = '0.1.0-rc.31'
+  s.version      = '0.1.0-rc.32'
   s.summary      = 'Sekyro AI identity verification (eKYC) SDK for iOS.'
   s.homepage     = 'https://sekyro.ai'
   s.license      = { :type => 'Commercial', :text => <<~LICENSE
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   s.author       = { 'Ibtikar Technologies, Inc.' => 'sdk@sekyro.ai' }
   s.platform     = :ios, '15.0'
   s.swift_versions = ['5.9']
-  s.source       = { :http => 'https://assets.sekyro.ai/sdk/ios/0.1.0-rc.31/SekyroKit.xcframework.zip', :sha256 => 'c7085163a1efec98748ca0d14fb8f240619889fa20ca661064995ca50df295a7' }
+  s.source       = { :http => 'https://assets.sekyro.ai/sdk/ios/0.1.0-rc.32/SekyroKit.xcframework.zip', :sha256 => 'b559eb39b35c1e0de2797111d0151dddfa9bbb868964e92dd9aee71949d5a0d9' }
   s.vendored_frameworks = 'SekyroKit.xcframework'
   s.frameworks   = 'AVFoundation', 'Vision', 'DeviceCheck', 'Network', 'CoreImage', 'Accelerate'
   s.weak_frameworks = 'CoreNFC'
