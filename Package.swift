@@ -1,10 +1,10 @@
 // swift-tools-version:5.9
-// Sekyro AI iOS SDK 0.1.0-rc.34 — binary distribution (no source). https://sekyro.ai
+// Sekyro AI iOS SDK 0.1.0-rc.35 — binary distribution (no source). https://sekyro.ai
 import PackageDescription
 
 let package = Package(
     name: "SekyroKit",
     platforms: [.iOS(.v15)],
     products: [.library(name: "SekyroKit", targets: ["SekyroKit"])],
-    targets: [.binaryTarget(name: "SekyroKit", url: "https://assets.sekyro.ai/sdk/ios/0.1.0-rc.34/SekyroKit.xcframework.zip", checksum: "2cee891fb87632ac4b5b275596e5a773c07fa8bfaa02ba89fd1ad121a93a631f")]
+    targets: [.binaryTarget(name: "SekyroKit", url: "https://assets.sekyro.ai/sdk/ios/0.1.0-rc.35/SekyroKit.xcframework.zip", checksum: "bf44cb0c4f42f9af653cf2d39bdcda58d5b2862c7208298e7b63c8456914cb90")]
 )
